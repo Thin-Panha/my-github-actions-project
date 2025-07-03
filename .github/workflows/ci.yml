@@ -21,11 +21,8 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: |
-          npm install
+         run: npm install
       - name: Change permissions
-        run: |
-          chmod +x ./node_modules/.bin/mocha
+         run: chmod +x ./node_modules/.bin/mocha
       - name: Run tests
-        run: |
-          npm test
+         run: npm test

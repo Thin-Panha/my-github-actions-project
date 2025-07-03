@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Thin-Panha/my-github-actions-project/issues"
   },
-  "homepage": "https://github.com/Thin-Panha/my-github-actions-project#readme"
+  "homepage": "https://github.com/Thin-Panha/my-github-actions-project#readme",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
 }
